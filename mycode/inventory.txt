@@ -1,0 +1,13 @@
+4
+
+bread
+6.00
+
+apple
+0.50
+
+milk
+3.79
+
+butter
+4.26
