@@ -1,6 +1,6 @@
 /*
  * Name        : lab_2.cpp
- * Author      : FILL IN
+ * Author      : Zachary Rust
  * Description : Using Arithmetic to finish the functions MakeChange() and
  *               LaunchHumanCannonball()
  * Sources     :
