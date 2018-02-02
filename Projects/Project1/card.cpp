@@ -28,7 +28,7 @@ void creditcard::SetCard(string num)
 //OUTPUT: none. Will send either true or false to check function, with company name.
 void creditcard::CheckBin()
 {
-    string company = "Unknown Card Type";
+    string company = "";
     bool check = false;
     //Looping variable
     int i = 0;
@@ -128,6 +128,7 @@ void creditcard::CheckBin()
     
     cout << company << endl << endl;
     //Now check the Luhn Algorithm
+    cout << "..............." << check << endl;
     CheckAlg(check, company);
 }
 
@@ -136,7 +137,7 @@ string creditcard::CheckAlg(bool p, string n)
     //If the card didn't pass the bin check, "Unknown Card Type" is returned
     if (p == false)
     {
-        return "0";
+        return "Unknown Card Type";
     }
     
     //First we determine the length of the card number

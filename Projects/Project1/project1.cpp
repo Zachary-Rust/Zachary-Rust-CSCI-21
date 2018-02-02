@@ -1,3 +1,8 @@
+//Zachary Rust
+//2.1.2018
+//This program checks what type of card each card is in a database and if it
+//doesn't find a match, returns "Unknown Card Type"
+
 #include <iostream>
 #include <sstream>
 #include <vector>
@@ -34,6 +39,8 @@ int main()
         ss >> temp;
         card.SetCard(temp);
     }
+    
+    inFS.close();
     
     return 0;
 }
