@@ -28,8 +28,9 @@ void creditcard::SetCard(string num)
 //OUTPUT: none. Will send either true or false to check function, with company name.
 void creditcard::CheckBin()
 {
-    string company = "";
+    string company = "Unknown Card Type";
     bool check = false;
+    
     //Looping variable
     int i = 0;
     
@@ -81,6 +82,8 @@ void creditcard::CheckBin()
         bin = temp;
     }
     
+    ss.clear();
+    
     //Check first 3 digits through stringstream
     for (i = 0; i < 3; i++)
     {
@@ -97,13 +100,14 @@ void creditcard::CheckBin()
         bin = temp;
     }
     
+    ss.clear();
+    
     //Check first 4 digits through stringstream
     for (i = 0; i < 4; i++)
     {
         ss << card_string.at(i);
     }
     ss >> temp;
-    
     //Check
     if (temp == 6011)
     {
@@ -111,6 +115,8 @@ void creditcard::CheckBin()
         check = true;
         bin = temp;
     }
+    
+    ss.clear();
     
     //Check first 6 digits
     for (i = 0; i < 6; i++)
@@ -126,9 +132,8 @@ void creditcard::CheckBin()
         bin = temp;
     }
     
-    cout << company << endl << endl;
+    cout << company << endl;
     //Now check the Luhn Algorithm
-    cout << "..............." << check << endl;
     CheckAlg(check, company);
 }
 
@@ -137,7 +142,7 @@ string creditcard::CheckAlg(bool p, string n)
     //If the card didn't pass the bin check, "Unknown Card Type" is returned
     if (p == false)
     {
-        return "Unknown Card Type";
+        return "n";
     }
     
     //First we determine the length of the card number
@@ -149,10 +154,8 @@ string creditcard::CheckAlg(bool p, string n)
     
     for (int i = 0; i < card_string.length(); i++)
     {
-        cout << card_string.at(i) << ',' ;
         i++;
     }
-    cout << endl << endl;
     
     return "FAILED";
 }
