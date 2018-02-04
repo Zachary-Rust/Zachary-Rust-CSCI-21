@@ -2,7 +2,7 @@
  * Name        : WhatsTheString
  * Author      : Zachary Rust
  * Description : Gets a string and determines if it is numeric, just words, or
-                 both.
+                 both.  If it is none it returns "String Invalid".
  */
 #include "WhatsTheString.h"
 
