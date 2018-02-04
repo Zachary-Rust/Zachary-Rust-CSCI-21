@@ -1,0 +1,3 @@
+When I try to run my makefile it gives me an error and says that argument 3 of the 
+first function is set to a parameter, but I don't know how to fix it without changing
+the .h file.
