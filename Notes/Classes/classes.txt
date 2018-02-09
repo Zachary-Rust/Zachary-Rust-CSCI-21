@@ -1,0 +1,28 @@
+______________________________________________________________________________
+    Encapsulation - Wrapping our classes in "big bubbles" so others can't get in
+    and screw them up (The users)
+
+    If your class variables are public, someone else can write a main and access
+        them
+        
+    Private: Only class has access
+        - Variables
+        - Some functions
+    
+    Protected: Subclasses have access, main cannot access
+        - Intermidiate level of protection (someone else can write a subclass
+        too)
+    
+    Public: Anybody can get to it(any other program that uses this class)
+        - Normally used for functions
+________________________________________________________________________________
+    Inheritance - A class inherits part of anothe class
+________________________________________________________________________________
+
+    Polymorphism - Something that can change (room.clean, car.clean)
+________________________________________________________________________________
+    - All class functions/variabales should directly relate to the class
+    - Every variable needs a set and get functions
+    - NO USER INPUT OR OUTPUT IN CLASSES (for reusability)
+        ~Some acceptions (Print or Recipt functions, or for debugging)
+    - STYLE GUIDE ~ Class variables always end in'_'

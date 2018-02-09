@@ -133,29 +133,104 @@ void creditcard::CheckBin()
     }
     
     cout << company << endl;
+    cout << "------------------------" << endl;
     //Now check the Luhn Algorithm
     CheckAlg(check, company);
 }
 
 string creditcard::CheckAlg(bool p, string n)
 {
+    //Set up string stream for function
+    stringstream ss;
+    string temp;
+    
     //If the card didn't pass the bin check, "Unknown Card Type" is returned
     if (p == false)
     {
-        return "n";
+        return n;
     }
     
-    //First we determine the length of the card number
+    //First we determine the length of the card number and check that the lenght
+    //of the number is allowed
     int length = card_string.length();
     if (length < 13 || length > 16)
     {
         return n;
     }
     
-    for (int i = 0; i < card_string.length(); i++)
-    {
-        i++;
-    }
+    //Use this to get every other number going backwards starting second to last
+    //This array holds the doubled numbers, and the index is used in the for loop
+    //since the variable i is incrementing twice
+    int doubled_nums[8];
+    int index = 0;
     
+    for (int i = card_string.length() - 2; i >= 0; i = i-2)
+    {
+        cout << card_string.at(i) << ' ';
+        ss << card_string.at(i);
+        ss >> doubled_nums[index];
+        ss.clear();
+        index++;
+    }
+    cout << endl << endl;
+    
+    //This loop will double the numbers, then determine if they are one, or two
+    //characters, then add them to the variable "total"
+    int total = 0;
+    int temp_int = 0;
+    ss.clear();
+    
+    for (int i = 0; i < card_string.length()/2; i++)
+        {
+        doubled_nums[i] = doubled_nums[i] * 2;
+        ss << doubled_nums[i];
+        ss >> temp;
+        
+        if (temp.length() == 1)
+        {
+            total += doubled_nums[i];
+            ss.clear();
+        }
+        else
+        {
+            ss.clear();
+            ss << temp.at(0);
+            //cout << "| " << temp.at(0) << "| ";
+            ss >> temp_int;
+            total += temp_int;
+            ss.clear();
+            ss << temp.at(1);
+            //cout << "| " << temp.at(1) << "| ";
+            ss >> temp_int;
+            total += temp_int;
+            ss.clear();
+        }
+        cout << doubled_nums[i] << ' ';
+    }
+    cout << endl << "TOTAL........" << total << endl;
+    
+    //Now we get 'x', or the last digit we add to the number
+    temp_int = total * 9;
+    cout << "TIMES 9........" << temp_int << endl;
+    
+    //now we get the last number of our temporary int
+    ss << temp_int;
+    ss >> temp;
+    ss.clear();
+    ss << temp.at(temp.length()-1);
+    ss >> temp_int;
+    cout << "THIRD CHAR AFTER * 9........" << temp_int << endl;
+    total += temp_int;
+    
+    //now check if the number == 0 after mod 10
+    if (total%10 == 0)
+    {
+        cout << "FIIIINNNNNAAAAALLLLYYYYYYYY!!!!!!!!!!!" << endl;
+    }
+    else
+    {
+        cout << "Card failed..." << endl;
+    }
+    cout << endl << "______________________________" << endl << endl;
     return "FAILED";
 }
