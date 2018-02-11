@@ -59,7 +59,8 @@ double Temperature::GetTempAsFahrenheit() const
 /*
 The commented code is the start to my attemp to limit the decimal places to two
 digits.  However I can't test this section of the code because I am getting an
-error because of the "const" keyword.
+error because an argument is already given for the parameter.  I know you can
+overload so I'm not sure why I'm getting this error.
 */
 string Temperature::ToString(char unit = 'K') const
 {
@@ -93,6 +94,10 @@ string Temperature::ToString(char unit = 'K') const
         ss << GetTempAsFahrenheit();
         ss << ' ';
         ss << "Fahrenheit";
+    }
+    else
+    {
+        ss << "Invalid Unit";
     }
     
     
