@@ -7,7 +7,7 @@
 #ifndef LAB_H
 #define LAB_H
 
-include "food_item.cpp"
+#include "food_item.cpp"
 #include <string>
 #include <sstream>
 
