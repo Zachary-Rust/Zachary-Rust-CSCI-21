@@ -4,7 +4,6 @@
 //doesn't find a match, returns "Unknown Card Type"
 
 #include <iostream>
-#include <sstream>
 #include <vector>
 #include <fstream>
 #include "accountclass.h"
@@ -13,9 +12,6 @@ using namespace std;
 
 int main()
 {
-    //stringstream object for use
-    stringstream ss;
-    
     //This object loads the input file with the accounts
     ifstream inF1("file1.txt");
     
@@ -43,18 +39,25 @@ int main()
         
         // This loop loads each line of data before sending it to the account
         // object
-         for (int i = 0; i < 5; i++)
-         {
-            inF1 >> data[i];
-         }
+        for (int i = 0; i < 4; i++)
+        {
+            if (i == 1)
+            {
+                inF1 >> temp1;
+                inF1 >> temp2;
+                data[i] = temp1 + ' ' + temp2;
+            }
+            else
+            {
+                inF1 >> data[i];
+            }
+        }
         
         //Creates an account to be added to the vector of accounts
-        //account temp_account(data[0], data[1], data[2], data[3]);
+        account temp_account(data[0], data[1], data[2], data[3]);
         
         //creates an account object for each person
-        //accounts.push_back(temp_account);
-        
-        //accounts[i].Print();
+        accounts.push_back(temp_account);
     }
     
     return 0;
