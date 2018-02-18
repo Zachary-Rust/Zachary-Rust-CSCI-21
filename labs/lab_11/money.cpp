@@ -60,3 +60,32 @@ const Money operator -(const Money& amount1, const Money& amount2) {
   }
   return Money(final_dollars, final_cents);
 }
+
+bool Money operator ==(const Money &amount1, const Money &amount2)
+{
+  //Get all the cents of object 1
+  int all_cents1 = amount1.cents_ + amount1.dollars_ * 100;
+  //Get all the cents of object 2
+  int all_cents2 = amount2.cents_ + amount2.dollars_ * 100;
+  //Determine if the objects have equal value
+  if (all_cents1 == all_cents2)
+  {
+    return true;
+  }
+  else
+  {
+    return false;
+  }
+}
+
+const Money operator -(const Money &amount)
+{
+  int n_cents = amount.cents_ * -1;
+  int n_dollars = amount.dollars_ * -1;
+  return Money(n_dollars, n_cents);
+}
+
+ostream& operator <<(ostream &out, const Money &amount)
+{
+  
+}
