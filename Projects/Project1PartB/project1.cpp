@@ -6,6 +6,7 @@
 #include <iostream>
 #include <vector>
 #include <fstream>
+#include <string>
 #include "accountclass.h"
 
 using namespace std;
@@ -14,6 +15,8 @@ int main()
 {
     //This object loads the input file with the accounts
     ifstream inF1("file1.txt");
+    
+    //This object loads the transactions
     
     //Check that the file opened properly, returns error (1) if not loaded
     if (!inF1.is_open())
@@ -60,5 +63,63 @@ int main()
         accounts.push_back(temp_account);
     }
     
+    //Close the file object to be reused for transactions
+    inF1.close();
+    
+    //Now we load the transactions and run them through each account
+    ifstream inF2;
+    inF2.open("transactions.txt");
+    
+    if (!inF2.is_open())
+    {
+        cout << "error loading transactions..." << endl;
+        return 1;
+    }
+    
+    //This string array will temporarily hold the data from each line of the
+    //transaction file
+    string transaction_data[5];
+    
+    //Variable used as index
+    int index = 0;
+    cout << "starting second file." << endl;
+    
+    while (!inF2.eof())
+    {
+        inF2 >> temp1;
+        
+        for (int i = 0; i < temp1.length(); i++)
+        {
+            if (index == 0)
+            {
+                if (temp1.at(i) != ':')
+                {
+                    transaction_data[index] += temp1.at(i);
+                }
+                else
+                {
+                    index++;
+                }
+            }
+            
+            if (index == 1)
+            {
+                cout << "Second index" << endl;
+                if (temp1.at(i) != ':')
+                {
+                    transaction_data[index] += temp1.at(i);
+                }
+                else
+                {
+                    index++;
+                }
+            }
+        }
+    }
+    
+    for (int i = 0; i < 5; i++)
+    {
+        cout << transaction_data[i] << endl;
+    }
     return 0;
 }

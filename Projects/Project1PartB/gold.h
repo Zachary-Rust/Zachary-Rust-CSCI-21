@@ -1,7 +1,17 @@
 #include "accountclass.h"
 
-class gold {
+class gold: public account {
     private:
-    const int limit = 3000;
-    const double rebate = 0.01;
-}
+    int limit_;
+    double rebate_;
+    int overdraft_;
+    
+    public:
+    gold();
+    
+    void Transaction(int t);
+    
+    void Math();
+    
+    void Print();
+};

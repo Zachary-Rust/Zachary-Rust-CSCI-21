@@ -55,3 +55,8 @@ bool Pet::GetTalks()
 {
     return talks_;
 }
+
+virtual Pet::Print()
+{
+    
+}

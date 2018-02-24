@@ -11,7 +11,7 @@ Account Class that is used with accounts file
 using namespace std;
 
 class account{
-    private:
+    protected:
     //Account Information
     string name_;
     string card_num_;

@@ -27,6 +27,9 @@ class Pet
     bool GetTalks();
     
     void print();
+    
+    //Deconstructor
+    virtual ~Pet() {}
 
     protected:
 
