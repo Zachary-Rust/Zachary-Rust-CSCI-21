@@ -3,6 +3,10 @@ Zachary Rust
 2/13/18
 Account Class that is used with accounts file
 */
+
+#ifndef LAB_H
+#define LAB_H
+
 #include <iostream>
 #include <string>
 #include <sstream>
@@ -19,7 +23,7 @@ class account{
     double current_balance_;
     
     //Transactions
-    string date_;
+    vector <string> date_;
     vector <string> trans_num_;
     vector <string> vendor_;
     vector <double> amount_;
@@ -41,7 +45,7 @@ class account{
     void SetCurrentBalance(double balance);
     double GetCurrentBalance();
     
-    void AddTransaction(string trans_num, string vendor, double amount);
+    void AddTransaction(string date, string trans_num, string vendor, double amount);
     string GetTrans(int index);
     
     void Print();
@@ -49,3 +53,4 @@ class account{
     virtual ~account(){}
 };
   
+#endif

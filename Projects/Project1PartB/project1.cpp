@@ -7,7 +7,10 @@
 #include <vector>
 #include <fstream>
 #include <string>
-#include "accountclass.h"
+// #include "accountclass.h"
+#include "gold.h"
+#include "platinum.h"
+#include "corporate.h"
 
 using namespace std;
 
@@ -26,7 +29,13 @@ int main()
     }
     
     //Vector used for loading accounts
-    vector<account> accounts;
+    //vector<account> accounts;
+    vector<gold> golds;
+    vector<platinum> platinums;
+    vector<corporate> corporates;
+    
+    //Variable used as index for printing account summaries
+    int num_accounts = 0;
     
     //This string array will hold the card number in the first index, the name
     //in the second, the card type in the third, adn card balance in the fourth
@@ -54,10 +63,28 @@ int main()
             {
                 inF1 >> data[i];
             }
+            
+            num_accounts++;
         }
         
         //Creates an account to be added to the vector of accounts
-        account temp_account(data[0], data[1], data[2], data[3]);
+        if (data[2] == "gold")
+        {
+            gold temp_gold(data[0], data[1], data[2], data[3]);
+            golds.push_back(temp_gold);
+        }
+        else if (data[2] == "platinum")
+        {
+            platinum temp_platinum(data[0], data[1], data[2], data[3]);
+            platinums.push_back(temp_platinum);
+        }
+        else if (data[2] == "corporate")
+        {
+            corporate temp_corporate(data[0], data[1], data[2], data[3]);
+            corporates.push_back(temp_corporate);
+        }
+        
+        //account temp_account(data[0], data[1], data[2], data[3]);
         
         //creates an account object for each person
         accounts.push_back(temp_account);
@@ -68,7 +95,7 @@ int main()
     
     //Now we load the transactions and run them through each account
     ifstream inF2;
-    inF2.open("transactions.txt");
+    inF2.open("file2.txt");
     
     if (!inF2.is_open())
     {
@@ -82,12 +109,20 @@ int main()
     
     //Variable used as index
     int index = 0;
-    cout << "starting second file." << endl;
     
+    //Loops through transaction file getting all transactions
     while (!inF2.eof())
     {
+        //Loads a line
         inF2 >> temp1;
         
+        //resets index
+        index = 0;
+        
+        //Each if statement adds every character up to the separation character
+        //to the appropriate slot in the transaction data array.  Once the 
+        //separation character is hit, it is skipped and it starts adding the 
+        //next piece of information to the next index
         for (int i = 0; i < temp1.length(); i++)
         {
             if (index == 0)
@@ -98,28 +133,97 @@ int main()
                 }
                 else
                 {
+                    i++;
                     index++;
                 }
             }
             
             if (index == 1)
             {
-                cout << "Second index" << endl;
                 if (temp1.at(i) != ':')
                 {
                     transaction_data[index] += temp1.at(i);
                 }
                 else
                 {
+                    i++;
                     index++;
                 }
             }
+            
+            if (index == 2)
+            {
+                if (temp1.at(i) != ':')
+                {
+                    transaction_data[index] += temp1.at(i);
+                }
+                else
+                {
+                    i++;
+                    index++;
+                }
+            }
+            
+            if (index == 3)
+            {
+                if (temp1.at(i) != ':')
+                {
+                    transaction_data[index] += temp1.at(i);
+                }
+                else
+                {
+                    i++;
+                    index++;
+                }
+            }
+            
+            if (index == 4)
+            {
+                if (temp1.at(i) != ':')
+                {
+                    transaction_data[index] += temp1.at(i);
+                }
+                else
+                {
+                    i++;
+                }
+            }
         }
+        
+        //Convert the string cost to a double to pass it to the add transaction
+        //function
+        stringstream ss;
+        
+        double cost;
+        
+        ss << transaction_data[4];
+        ss >> cost;
+        
+        //Now store the data in the appropriate account by looping through all
+        //accounts until the matching account is found
+        for (int i = 0; i < golds.size(); i++)
+        {
+            if (transaction_data[0] == golds[i].GetCardNum())
+            {
+                golds[i].AddTransaction(transaction_data[1], transaction_data[2], transaction_data[3], cost);
+            }
+        }
+        
+        
+        //resets the array for the next line
+        for (int i = 0; i < 5; i++)
+        {
+            cout << transaction_data[i] << endl;
+            transaction_data[i] = "";
+        }
+        cout << endl << endl;
     }
     
-    for (int i = 0; i < 5; i++)
-    {
-        cout << transaction_data[i] << endl;
-    }
+    //Finally Print out all account summaries
+    // for (int i = 0; i < num_accounts; i++)
+    // {
+    //     accounts[i].Print();
+    // }
+    
     return 0;
 }
