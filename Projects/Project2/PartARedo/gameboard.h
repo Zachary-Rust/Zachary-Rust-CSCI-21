@@ -19,6 +19,7 @@ class gameboard {
     public:
     gameboard();
     
+    void LoadBoard();
     char GetPos(int col, char row);
     
     ~gameboard() {}
