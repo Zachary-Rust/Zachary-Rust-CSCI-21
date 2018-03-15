@@ -7,7 +7,7 @@
 #include <vector>
 #include <fstream>
 #include <string>
-// #include "accountclass.h"
+#include "accountclass.h"
 #include "gold.h"
 #include "platinum.h"
 #include "corporate.h"
@@ -87,7 +87,7 @@ int main()
         //account temp_account(data[0], data[1], data[2], data[3]);
         
         //creates an account object for each person
-        accounts.push_back(temp_account);
+        //accounts.push_back(temp_account);
     }
     
     //Close the file object to be reused for transactions
@@ -218,12 +218,5 @@ int main()
         }
         cout << endl << endl;
     }
-    
-    //Finally Print out all account summaries
-    // for (int i = 0; i < num_accounts; i++)
-    // {
-    //     accounts[i].Print();
-    // }
-    
     return 0;
 }

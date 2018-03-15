@@ -1,3 +1,6 @@
+#ifndef CORPORATE_h
+#define CORPORATE_h
+
 #include "accountclass.h"
 
 class corporate: public account {
@@ -8,6 +11,9 @@ class corporate: public account {
     
     public:
     corporate();
+    corporate(string card_num, string name, string card_type, string balance);
     
     bool Transaction();
 };
+
+#endif

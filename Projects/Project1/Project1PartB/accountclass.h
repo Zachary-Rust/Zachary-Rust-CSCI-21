@@ -4,8 +4,8 @@ Zachary Rust
 Account Class that is used with accounts file
 */
 
-#ifndef LAB_H
-#define LAB_H
+#ifndef ACCOUNT_H
+#define ACCOUNT_H
 
 #include <iostream>
 #include <string>

@@ -1,7 +1,7 @@
-#ifndef LAB_H
-#define LAB_H
+#ifndef GOLD_H
+#define GOLD_H
 
-//#include "accountclass.h"
+#include "accountclass.h"
 
 class gold: public account {
     protected:

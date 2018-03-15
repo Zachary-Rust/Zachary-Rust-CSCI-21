@@ -7,20 +7,27 @@
 
 #include <iostream>
 #include <fstream>
+#include <vector>
+#include <string>
+using std::string;
 using std::cout;
+using std::cin;
 using std::ifstream;
+using std::vector;
+
+using namespace std;
 
 class gameboard {
     
     private:
-    vector<char> board_(100);
-    vector<char> targ_board_(100);
+    vector<char> board_;
     
     public:
     gameboard();
     
     void LoadBoard();
-    char GetPos(int col, char row);
+    char GetPos(char row, int col);
+    void Print();
     
     ~gameboard() {}
 };

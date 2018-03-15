@@ -1,3 +1,6 @@
+#ifndef PLATINUM_H
+#define PLATINUM_H
+
 #include "accountclass.h"
 
 class platinum: public account {
@@ -8,6 +11,9 @@ class platinum: public account {
     
     public:
     platinum();
+    platinum(string card_num, string name, string card_type, string balance);
     
     bool Transaction();
 };
+
+#endif
