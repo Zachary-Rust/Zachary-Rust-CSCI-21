@@ -118,6 +118,13 @@ char gameboard::GetPos(char row, int col)
     }
 }
 
+//This funcitons returns the character on the board at a certain index
+//Input: The index
+//Output: Char at the index
+char gameboard::GetIndex(int num)
+{
+    return board_.at(num);
+}
 //This function prints the game board in the proper 10x10 format
 //Input: n/a
 //Output: n/a
@@ -132,6 +139,9 @@ void gameboard::Print()
     
     //First we print the first line of numbers to select collumns from
     cout << endl;
+    
+    cout << "Reference Board" << endl;
+    
     cout << "  ";
     for (int i = 0; i < 10; i++)
     {
@@ -163,4 +173,52 @@ void gameboard::Print()
         }
     }
     cout << endl;
+}
+
+//This function marks loacations on the tracking board as hits or misses
+//Input: integer and character location on the board, character to mark board with
+//Output: n/a
+void gameboard::MarkBoard(char row, int col, char c)
+{
+    
+    if (row == 'A' || row == 'a')
+    {
+        board_.at(0 + col) = c;
+    }
+    else if (row == 'B' || row == 'b')
+    {
+        board_.at(10 + col) = c;
+    }
+    else if (row == 'C' || row == 'c')
+    {
+        board_.at(20 + col) = c;
+    }
+    else if (row == 'D' || row == 'd')
+    {
+        board_.at(30 + col) = c;
+    }
+    else if (row == 'E' || row == 'e')
+    {
+        board_.at(40 + col) = c;
+    }
+    else if (row == 'F' || row == 'f')
+    {
+        board_.at(50 + col) = c;
+    }
+    else if (row == 'G' || row == 'g')
+    {
+        board_.at(60 + col) = c;
+    }
+    else if (row == 'H' || row == 'h')
+    {
+        board_.at(70 + col) = c;
+    }
+    else if (row == 'I' || row == 'i')
+    {
+        board_.at(80 + col) = c;
+    }
+    else if (row == 'J' || row == 'j')
+    {
+        board_.at(90 + col) = c;
+    }
 }

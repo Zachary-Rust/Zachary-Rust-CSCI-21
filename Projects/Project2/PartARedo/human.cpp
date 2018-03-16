@@ -6,7 +6,16 @@ human::human()
     
 }
 
-void human::TakeTurn(gameboard b)
+//Overload Constructor
+//Input: Gameboard with ships marked on it
+//Ouptup: n/a
+human::human(gameboard b)
+{
+    board_ = b;
+    cout << "RAN OVERLOAD CONSTRUCTOR" << endl;
+}
+
+bool human::TakeTurn()
 {
     //Input variables
     char row = ' ';
@@ -20,7 +29,7 @@ void human::TakeTurn(gameboard b)
     char status = ' ';
     
     //Set status to hit status
-    status = b.GetPos(row, col);
+    status = board_.GetPos(row, col);
     
     if (status == 'E')
     {
@@ -30,13 +39,24 @@ void human::TakeTurn(gameboard b)
     {
         cout << "You have hit a ship!\n";
         MarkBoard(row, col, 'H');
+        board_.MarkBoard(row, col, 'H');
     }
     else
     {
         cout << "You have missed.\n";
         MarkBoard(row, col, 'M');
+        board_.MarkBoard(row, col, 'M');
     }
     
-    b.Print();
-    Print();
+    if (CheckWin(board_) == true)
+    {
+        cout << "Congradulations! You won." << endl;
+        return true;
+    }
+    else
+    {
+        board_.Print();
+        Print();
+        return false;
+    }
 }

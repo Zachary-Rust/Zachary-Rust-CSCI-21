@@ -9,11 +9,14 @@
 #include "gameboard.h"
 
 class human: public player {
+    private:
+    gameboard board_;
     
     public:
     human();
+    human(gameboard b);
     
-    void TakeTurn(gameboard b);
+    bool TakeTurn();
     
     ~human() {}
 };

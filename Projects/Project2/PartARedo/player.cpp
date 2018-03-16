@@ -72,6 +72,9 @@ void player::Print()
     
     //First we print the first line of numbers to select collumns from
     cout << endl;
+    
+    cout << "Player Board" << endl;
+    
     cout << "  ";
     for (int i = 0; i < 10; i++)
     {
@@ -103,4 +106,17 @@ void player::Print()
         }
     }
     cout << endl;
+}
+
+bool player::CheckWin(gameboard b)
+{
+    for (int i = 0; i < 100; i++)
+    {
+        if (b.GetIndex(i) == 'S')
+        {
+            return false;
+        }
+    }
+    
+    return true;
 }

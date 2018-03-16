@@ -7,6 +7,7 @@
 
 #include <vector>
 #include <iostream>
+#include "gameboard.h"
 using std::cout;
 using std::cin;
 using std::vector;
@@ -21,6 +22,7 @@ class player {
     player();
     
     void MarkBoard(char row, int col, char c);
+    bool CheckWin(gameboard b);
     void Print();
     
     virtual ~player() {}

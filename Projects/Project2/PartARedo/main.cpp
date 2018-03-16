@@ -18,12 +18,12 @@ void Play()
     cout << "After that it's up to you to beat the computer and win." << endl;
     cout << "Good Luck!!" << endl;
     
-    //Set up objects
+    //Set up objects and load board
     gameboard Board;
-    human Human;
-    
-    //Load and print game board
     Board.LoadBoard();
+    human Human(Board);
+    
+    //Print game board
     Board.Print();
     
     //start while loop for game
@@ -31,6 +31,9 @@ void Play()
     
     while (!won)
     {
-        Human.TakeTurn(Board);
+        if (Human.TakeTurn())
+        {
+            won = true;
+        }
     }
 }
