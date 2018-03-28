@@ -45,7 +45,7 @@ class account{
     void SetCurrentBalance(double balance);
     double GetCurrentBalance();
     
-    void AddTransaction(string date, string trans_num, string vendor, double amount);
+    virtual void AddTransaction(string date, string trans_num, string vendor, double amount) { };
     string GetTrans(int index);
     
     void Print();

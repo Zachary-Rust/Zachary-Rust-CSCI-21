@@ -66,7 +66,8 @@ int main()
             
             num_accounts++;
         }
-        
+        cout << "DATA" << endl;
+        cout << data[0] << ',' << data[1] << ',' << data[2] << ',' << data[3] << endl << endl;
         //Creates an account to be added to the vector of accounts
         if (data[2] == "gold")
         {
@@ -83,11 +84,6 @@ int main()
             corporate temp_corporate(data[0], data[1], data[2], data[3]);
             corporates.push_back(temp_corporate);
         }
-        
-        //account temp_account(data[0], data[1], data[2], data[3]);
-        
-        //creates an account object for each person
-        //accounts.push_back(temp_account);
     }
     
     //Close the file object to be reused for transactions
@@ -199,6 +195,8 @@ int main()
         ss << transaction_data[4];
         ss >> cost;
         
+        cout << "transaction_data" << endl;
+        cout << transaction_data[0] << ',' << transaction_data[1] << ',' << transaction_data[2] << ',' << transaction_data[3] << endl << endl;
         //Now store the data in the appropriate account by looping through all
         //accounts until the matching account is found
         for (int i = 0; i < golds.size(); i++)
@@ -209,14 +207,47 @@ int main()
             }
         }
         
+        for (int i = 0; i < platinums.size(); i++)
+        {
+            if (transaction_data[0] == platinums[i].GetCardNum())
+            {
+                platinums[i].AddTransaction(transaction_data[1], transaction_data[2], transaction_data[3], cost);
+            }
+        }
+        
+        for (int i = 0; i < corporates.size(); i++)
+        {
+            if (transaction_data[0] == corporates[i].GetCardNum())
+            {
+                corporates[i].AddTransaction(transaction_data[1], transaction_data[2], transaction_data[3], cost);
+            }
+        }
+        
         
         //resets the array for the next line
         for (int i = 0; i < 5; i++)
         {
-            cout << transaction_data[i] << endl;
+            //cout << transaction_data[i] << endl;
             transaction_data[i] = "";
         }
         cout << endl << endl;
     }
+    
+    //Now print all informatin
+    for (int i = 0; i < golds.size(); i++)
+    {
+        golds[i].Print();
+    }
+    
+    for (int i = 0; i < platinums.size(); i++)
+    {
+        platinums[i].Print();
+    }
+    
+    for (int i = 0; i < corporates.size(); i++)
+    {
+        corporates[i].Print();
+    }
+    
     return 0;
 }

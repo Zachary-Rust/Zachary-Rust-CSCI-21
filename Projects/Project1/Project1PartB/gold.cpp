@@ -19,15 +19,20 @@ gold::gold(string card_num, string name, string card_type, string balance)
     current_balance_ = temp;
 }
 
-bool gold::Transaction()
+void gold::AddTransaction(string date, string trans_num, string vendor, double amount)
 {
     if (current_balance_ + amount_[num_transactions_] < limit_)
     {
         current_balance_ += amount_[num_transactions_];
-        return true;
+        date_.push_back(date);
+        trans_num_.push_back(trans_num);
+        vendor_.push_back(vendor);
+        amount_.push_back(amount);
+        num_transactions_++;
+        cout << "___ New Transaction -- " << name_ << " --___" << endl;
     }
     else
     {
-        return false;
+        cout << "# Transaction failed # Amount exceeded allowed limt & overdraft." << endl;
     }
 }

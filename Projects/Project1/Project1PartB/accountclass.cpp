@@ -86,63 +86,6 @@ double account::GetCurrentBalance()
     return current_balance_;
 }
 
-void account::AddTransaction(string date, string trans_num, string vendor, double amount)
-{
-    // gold Gold;
-    // platinum Platinum;
-    // corporate Corporate;
-    // if (card_type_ == "Gold")
-    // {
-    //     if (Gold.Transaction() == false)
-    //     {
-    //         cout << "# Transaction failed # Amount exceeded allowed limt & overdraft." << endl;
-    //     }
-    //     else
-    //     {
-    //         date_.push_back(date);
-    //         trans_num_.push_back(trans_num);
-    //         vendor_.push_back(vendor);
-    //         amount_.push_back(amount);
-    //         num_transactions_++;
-    //         cout << "___ New Transaction -- " << name_ << " --___" << endl;
-    //     }
-    // }
-    
-    // if (card_type_ == "Platinum")
-    // {
-    //     if (Platinum.Transaction() == false)
-    //     {
-    //         cout << "# Transaction failed # Amount exceeded allowed limt & overdraft." << endl;
-    //     }
-    //     else
-    //     {
-    //         date_.push_back(date);
-    //         trans_num_.push_back(trans_num);
-    //         vendor_.push_back(vendor);
-    //         amount_.push_back(amount);
-    //         num_transactions_++;
-    //         cout << "___ New Transaction -- " << name_ << " --___" << endl;
-    //     }
-    // }
-    
-    // if (card_type_ == "Corporate")
-    // {
-    //     if (Corporate.Transaction() == false)
-    //     {
-    //         cout << "# Transaction failed # Amount exceeded allowed limt & overdraft." << endl;
-    //     }
-    //     else
-    //     {
-    //         date_.push_back(date);
-    //         trans_num_.push_back(trans_num);
-    //         vendor_.push_back(vendor);
-    //         amount_.push_back(amount);
-    //         num_transactions_++;
-    //         cout << "___ New Transaction -- " << name_ << " --___" << endl;
-    //     }
-    // }
-}
-
 void account::Print()
 {
     cout << name_ << ", " << card_type_ << ", " << card_num_ << ", current balance - " << current_balance_ << endl;

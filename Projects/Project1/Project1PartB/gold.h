@@ -13,11 +13,7 @@ class gold: public account {
     gold();
     gold(string card_num, string name, string card_type, string balance);
     
-    bool Transaction();
-    
-    void Math();
-    
-    void Print();
+    void AddTransaction(string date, string trans_num, string vendor, double amount);
 };
 
 #endif
