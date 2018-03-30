@@ -1,11 +1,11 @@
-run: node.o test2.o
-	g++ node.o test2.o -o run
+run: node.o mytest.o
+	g++ node.o mytest.o -o run
 	
 node: node.cpp
 	g++ -g -c node.cpp
 	
-test2: test2.cpp
-	g++ -g -c test2.cpp
+mytest: mytest.cpp
+	g++ -g -c mytest.cpp
 	
 clear:
 	rm * .o run
