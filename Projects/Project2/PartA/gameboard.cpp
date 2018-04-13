@@ -43,7 +43,6 @@ bool gameboard::LoadBoard(string filename)
     for (i = 0; i < 100; i++)
     {
         inFS >> temp;
-        cout << temp << endl;
         board_.push_back(temp);
     }
     
