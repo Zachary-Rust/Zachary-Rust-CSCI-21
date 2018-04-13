@@ -1,113 +1,74 @@
-#include <iostream>
-#include <fstream>
+#include "gameboard.h"
+#include "player.h"
+#include "human.h"
 
-using namespace std;
-
-void Intro();
-void LoadBoard(int &size);
-void PrintBoard(string **b, int size);
+void Play();
 
 int main()
 {
-    //board parallel arrays
-    int board_size = 0;
-    
-    Intro();
-    LoadBoard(board_size);
-    cout << "Board Size: " << board_size << endl;
-    
-    //Now create the game board using two parallel string arrays
-    string **board;
-    
-    //Create arrays for rows and collumns
-    board = new string *[board_size];
-    
-    for (int i = 0; i < board_size; i++)
-    {
-        board[i] = new string[1];
-    }
-    
-    //Set up board with proper characters
-    
-    
-    //Now print the board
-    PrintBoard(board, board_size);
-    // delete(rows);
-    // delete(cols);
+    Play();
     return 0;
 }
 
-
-
-
-
-
-//This function outputs the text introducing the player to the game
-//Input: n/a
-//Output: n/a
-void Intro()
+void Play()
 {
+    //Intro
     cout << "Welcome to Battleship!" << endl;
     cout << "You will first need to enter the name of the file to load the game from." << endl;
     cout << "After that it's up to you to beat the computer and win." << endl;
     cout << "Good Luck!!" << endl;
-}
-
-//This function prompts the user for the file to load the game from
-//Input: pass by referenced integers representing the numbers of rows and collumns
-//Output: n/a
-void LoadBoard(int &size)
-{
-    //Create file object
-    ifstream inFS;
-    string filename = "";
     
-    //bool to be set to true when file is correctly loaded
-    bool game_loaded_ = false;
+    //Set up objects and load board
+    gameboard Board;
     
-    //Prompt user to enter file name
-    cout << "Enter the name of the file to load the game from... ";
-    cin >> filename;
-    filename += ".txt";
+    bool loaded = false;
+    string name = "";
     
-    //This loop will run until the right file is successfuly loaded
-    while (!game_loaded_)
+    while (!loaded)
     {
-        //Open file
-        inFS.open(filename);
-        
-        //Check to make sure file is opened before continuing
-        if (!inFS.is_open())
-        {
-            cout << "Incorrect file name.\nPlease try again...";
-            cin >> filename;
-            filename += ".txt";
-        }
-        else
-        {
-            //Set condition to exit loop
-            game_loaded_ = true;
-            cout << "Board loaded!" << endl;
-        }
-        
-        //Now we send the board to the inputs
-        inFS >> size;
+        cout << "Enter board name" << endl;
+        cin >> name;
+        loaded = Board.LoadBoard(name);
     }
-}
-
-//This function prints the game board
-//Input: The arrays for the rows and collumns, and the number of rows and collumns
-//Ouptut: n/a
-void PrintBoard(string **b, int size)
-{
-    cout << "Printing Board" << endl;
     
-    for (int r = 0; r < size; r++)
+    human Human(Board);
+    
+    //Print game board
+    Board.Print();
+    
+    //start while loop for game
+    bool won = false;
+    
+    //Input variables
+    char r = ' ';
+    int c = 0;
+    
+    char result = ' ';
+    
+    while (!won)
     {
-        for (int c = 0; c < size; c++)
+        cout << "Where would you like to attack? (row column) (ex: A 1)\n";
+        cin >> r;
+        cin >> c;
+        
+        result = Human.TakeTurn(r,c);
+        
+        if (result == 'E')
         {
-            cout << b[r][c];
+            cout << "Sorry, you have chosen an illegal move.\nPlease try again. (row column)\n";
         }
-        cout << endl;
+        else if (result == 'S')
+        {
+            cout << "You have hit a ship!\n";
+        }
+        else if (result == 'M')
+        {
+            cout << "You have missed.\n";
+        }
+        else if (result == 'W')
+        {
+            cout << "Congradulations! You won." << endl;
+            won = true;
+        }
     }
 }

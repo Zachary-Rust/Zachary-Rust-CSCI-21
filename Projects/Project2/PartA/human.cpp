@@ -12,51 +12,45 @@ human::human()
 human::human(gameboard b)
 {
     board_ = b;
-    cout << "RAN OVERLOAD CONSTRUCTOR" << endl;
 }
 
-bool human::TakeTurn()
+//Human Takes Turn
+//Input: n/a
+//Output: bool T if ship is hit, F if missed
+char human::TakeTurn(char row, int col)
 {
-    //Input variables
-    char row = ' ';
-    int col = 0;
-    
-    cout << "Where would you like to attack? (row column) (ex: A 1)\n";
-    cin >> row;
-    cin >> col;
-    
     //Check variable for hit status
     char status = ' ';
+    char ret = ' ';
     
+    cout << "ROW " << row << " COL " << col << endl;
     //Set status to hit status
     status = board_.GetPos(row, col);
     
     if (status == 'E')
     {
-        cout << "Sorry, you have chosen an illegal move.\nPlease try again. (row column)\n";
+        ret = 'E';
     }
     else if (status == 'S')
     {
-        cout << "You have hit a ship!\n";
         MarkBoard(row, col, 'H');
         board_.MarkBoard(row, col, 'H');
+        ret = 'S';
     }
     else
     {
-        cout << "You have missed.\n";
         MarkBoard(row, col, 'M');
         board_.MarkBoard(row, col, 'M');
+        ret = 'M';
     }
     
     if (CheckWin(board_) == true)
     {
-        cout << "Congradulations! You won." << endl;
-        return true;
+        ret = 'W';
     }
-    else
-    {
-        board_.Print();
-        Print();
-        return false;
-    }
+    
+    board_.Print();
+    Print();
+    
+    return ret;
 }

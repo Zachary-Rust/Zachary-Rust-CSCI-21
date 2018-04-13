@@ -16,7 +16,7 @@ class human: public player {
     human();
     human(gameboard b);
     
-    bool TakeTurn();
+    char TakeTurn(char row, int col);
     
     ~human() {}
 };

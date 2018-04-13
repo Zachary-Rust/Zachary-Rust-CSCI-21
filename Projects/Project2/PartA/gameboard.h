@@ -26,7 +26,7 @@ class gameboard {
     gameboard();
     
     void MarkBoard(char row, int col, char c);
-    void LoadBoard();
+    bool LoadBoard(string filename);
     char GetPos(char row, int col);
     char GetIndex(int num);
     void Print();

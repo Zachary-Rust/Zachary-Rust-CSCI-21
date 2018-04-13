@@ -5,45 +5,30 @@
 //Ouptut: n/a
 gameboard::gameboard()
 {
-    
+    for (int i = 0; i < 100; i ++)
+    {
+        board_.push_back('o');
+    }
 }
 
 //This function prompts the user to enter the name of the game board, the loads
 //the board
 //Input: n/a
 //Ouptu: n/a
-void gameboard::LoadBoard()
+bool gameboard::LoadBoard(string filename)
 {
-    //name of game board
-    string filename = "";
-    
-    cout << "Enter the name of the board file... ";
-    cin >> filename;
-    
-    filename += ".txt";
-    
-    //bool set to true when board is successfully loaded
-    bool loaded = false;
+    //Clear board from constructor
+    board_.clear();
     
     //Input stream
     ifstream inFS;
     
-    //Loop until board is loaded
-    while (!loaded)
+    //Attempt to load board
+    inFS.open(filename.c_str());
+    
+    if (!inFS.is_open())
     {
-        inFS.open(filename.c_str());
-        
-        if (!inFS.is_open())
-        {
-            cout << "Error loading board. Try again... ";
-            cin >> filename;
-            filename += ".txt";
-        }
-        else
-        {
-            cout << "Board loaded." << endl;
-            loaded = true;
-        }
+        return false;
     }
     
     //Now set gameboard vector according to the input file
@@ -58,8 +43,11 @@ void gameboard::LoadBoard()
     for (i = 0; i < 100; i++)
     {
         inFS >> temp;
+        cout << temp << endl;
         board_.push_back(temp);
     }
+    
+    return true;
 }
 
 //This function is used to check the status of a board position (is a ship there?)
