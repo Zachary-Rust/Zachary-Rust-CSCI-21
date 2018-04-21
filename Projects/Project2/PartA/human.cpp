@@ -37,6 +37,10 @@ char human::TakeTurn(char row, int col)
         board_.MarkBoard(row, col, 'H');
         ret = 'S';
     }
+    else if (status == 'H')
+    {
+        ret = 'H';
+    }
     else
     {
         MarkBoard(row, col, 'M');
