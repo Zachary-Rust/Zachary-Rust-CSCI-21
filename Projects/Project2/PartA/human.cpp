@@ -23,7 +23,6 @@ char human::TakeTurn(char row, int col)
     char status = ' ';
     char ret = ' ';
     
-    cout << "ROW " << row << " COL " << col << endl;
     //Set status to hit status
     status = board_.GetPos(row, col);
     

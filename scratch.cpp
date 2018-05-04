@@ -1,21 +1,12 @@
 #include <iostream>
 #include <cmath>
 #include <string>
+#include <cstdlib>
 using namespace std;
 
-
-int DecToBin(int num)
+int main()
 {
-    int rem = 0;
+    srand(time(0));
     
-    num /= 2;
-    rem = num / 2;
-    
-    return result;
-}
-
-int main(){
-int i = 0;
-i = binToDec(111, 0);
-cout<<i;
+    cout << rand() % 2 << endl;
 }

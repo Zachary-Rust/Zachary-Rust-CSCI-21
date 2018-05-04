@@ -58,8 +58,6 @@ void Play()
         if (true)
         {
             result = Human.TakeTurn(r,c);
-          
-            cout << endl << endl << "RESULT FROM TAKE TURN: " << result << endl << endl;
             
             if (result == 'E')
             {

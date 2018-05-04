@@ -1,0 +1,15 @@
+Questions:
+
+To-Do:
+
+//    1. Add a print for the Computer's board
+//    2. Add a print for which square that was attacked by each player
+//    3. Add command line arguments
+/        - Add command line arguments for who goes first and computers board.
+/        - Add command line arguments for file names
+    4. Add STL Queue class to implement Computer's intelligence
+         a. pick random number on board
+         b. if hit, push 4 surrounding squares into queue (above, right, below, left)
+         c. if one of the squares was already selected, push it (remove later)
+         d. squares outside the board must not be pushed
+         e. computer must go through queue in proper order, if no queue, pick random
