@@ -38,8 +38,7 @@ void Play(string p_board, string c_board, string turn)
 {
     //Intro
     cout << "Welcome to Battleship!" << endl;
-    cout << "You will first need to enter the name of the file to load the game from." << endl;
-    cout << "After that it's up to you to beat the computer and win." << endl;
+    cout << "It's up to you to beat the computer and win." << endl;
     cout << "Good Luck!!" << endl;
     
     //Set up objects and load board
@@ -64,6 +63,8 @@ void Play(string p_board, string c_board, string turn)
     //computer choices
     char c_r = 'P';
     int c_c = 0;
+    //result of computers turn
+    char c_res = ' ';
     
     //Player turn result
     char result = ' ';
@@ -99,7 +100,7 @@ void Play(string p_board, string c_board, string turn)
     //Copmuter goes first or player goes first
     if (p_first == false)
     {
-        Computer.TakeTurn(c_r, c_c);
+        Computer.TakeTurn(c_r, c_c, c_res);
     }
     
     while (!won)
@@ -137,11 +138,29 @@ void Play(string p_board, string c_board, string turn)
             won = true;
         }
         
-        //Computer Turn
-        Border();
-        Computer.TakeTurn(c_r, c_c);
-        cout << endl << "Computer chose row: " << c_r << ", collumn: " << c_c << "." << endl;
-        Border();
+        if (!won)
+        {
+            //Computer Turn
+            Border();
+            Computer.TakeTurn(c_r, c_c, c_res);
+            cout << endl << "Computer chose row: " << c_r << ", collumn: " << c_c << "." << endl;
+            
+            if (c_res == 'H')
+            {
+                cout << "The computer has hit a ship!\n";
+            }
+            else if (c_res == 'M')
+            {
+                cout << "The computer has missed.\n";
+            }
+            else if (c_res == 'W')
+            {
+                cout << "The computer won!" << endl;
+                won = true;
+            }
+            
+            Border();
+        }
     }
 }
 

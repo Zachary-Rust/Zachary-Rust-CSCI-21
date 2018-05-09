@@ -8,12 +8,16 @@
 #include "player.h"
 #include "gameboard.h"
 #include <cstdlib>
-using namespace std;
+#include <queue>
+using std::srand;
+using std::rand;
+using std::queue;
 
 class computer: public player {
     private:
     //Check if there is a queue
-    bool q_;
+    bool q_up;
+    queue<int> turns;
     vector<int> choices_;
     
     public:
@@ -24,13 +28,16 @@ class computer: public player {
     computer(gameboard b);
     
     //Take turn
-    void TakeTurn(char &row, int &col);
+    void TakeTurn(char &row, int &col, char &r);
     
     //Marks board based off an index
     void MarkIndex(int loc, char c);
     
     //Gets computers row and collumn choice based off an index
     void GetRC(char &row, int &col, int index);
+    
+    //Check if won
+    bool CheckWin(gameboard b);
     
     //Print results of turn
     void PrintTurn(char r, int c);

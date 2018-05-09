@@ -2,36 +2,75 @@
 
 computer::computer()
 {
-    srand(time(NULL));
+    q_up = false;
+    srand(time(0));
 }
 
 computer::computer(gameboard b)
 {
     board_ = b;
+    q_up = false;
+    srand(time(0));
 }
 
-void computer::TakeTurn(char &row, int &col)
+void computer::TakeTurn(char &row, int &col, char &r)
 {
     //Pick random number on board
     int choice = 0;
     
+    cout << "Queue empty? " << turns.empty() << endl;
+    
     //Check not to repeat a choice
     bool good_choice = false;
-    
-    while (!good_choice)
+        
+    if (turns.empty())
     {
-        choice = rand() % 100;
-        
-        good_choice = true;
-        
-        //Check to see if choice has already been chosen
-        for (int i = 0; i < choices_.size(); i++)
+        //Runs until a new choice is found
+        while (!good_choice)
         {
-            if (choice == choices_.at(i))
+            choice = rand() % 100;
+            
+            good_choice = true;
+            
+            //Check to see if choice has already been chosen
+            for (int i = 0; i < choices_.size(); i++)
             {
-                good_choice = false;
+                if (choice == choices_.at(i))
+                {
+                    good_choice = false;
+                }
             }
         }
+    }
+    else
+    {
+        //Runs until a new choice is found
+        while (!good_choice)
+        {
+            if (turns.empty() == false)
+            {
+                choice = turns.front();
+            }
+            else
+            {
+                choice = rand() % 100;
+            }
+            
+            good_choice = true;
+            
+            //Check to see if choice has already been chosen
+            for (int i = 0; i < choices_.size(); i++)
+            {
+                if (choice == choices_.at(i))
+                {
+                    good_choice = false;
+                    turns.pop();
+                }
+            }
+        }
+        
+        turns.pop();
+        cout << "QUEUE SIZE = " << turns.size() << endl;
     }
     
     //Adds choice to choice list to not repeat
@@ -44,17 +83,46 @@ void computer::TakeTurn(char &row, int &col)
     {
         //Mark Tracking Board
         MarkIndex(choice, 'H');
-        //board_.MarkBoard(row, col, 'H');
+        r = 'H';
+        
+        //Create the queue
+        if (choice - 10 >= 0)
+        {
+            turns.push(choice - 10);
+        }
+        if (choice + 1 <= 99)
+        {
+            turns.push(choice + 1);
+        }
+        if (choice + 10 <= 99)
+        {
+            turns.push(choice + 10);
+        }
+        if (choice - 1 >= 0)
+        {
+            turns.push(choice - 1);
+        }
+        
+        //Mark Reference Board
+        board_.MarkBoard(row, col, 'H');
     }
     else
     {
         //Mark Tracking Board
         MarkIndex(choice, 'M');
-        //board_.MarkBoard(row, col, 'M');
+        r = 'M';
+        
+        //Mark Reference Board
+        board_.MarkBoard(row, col, 'M');
     }
     PrintTrack();
     GetRC(row, col, choice);
     //PrintBoard();
+    
+    if (CheckWin(board_))
+    {
+        r = 'W';
+    }
 }
 
 void computer::PrintTurn(char r, int c)
@@ -70,6 +138,18 @@ void computer::MarkIndex(int loc, char c)
     track_board_.at(loc) = c;
 }
 
+bool computer::CheckWin(gameboard b)
+{
+    for (int i = 0; i < 100; i++)
+    {
+        if (b.GetIndex(i) == 'S')
+        {
+            return false;
+        }
+    }
+    
+    return true;
+}
 void computer::GetRC(char &row, int &col, int index)
 {
     stringstream ss;
