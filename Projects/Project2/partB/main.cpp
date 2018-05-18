@@ -46,8 +46,17 @@ void Play(string p_board, string c_board, string turn)
     gameboard C_Board;
     
     //Load player board
-    P_Board.LoadBoard(p_board);
-    C_Board.LoadBoard(c_board);
+    if (!P_Board.LoadBoard(p_board))
+    {
+        cout << "Incorrect filename for player board." << endl;
+        return;
+    }
+    
+    if (!C_Board.LoadBoard(c_board))
+    {
+        cout << "Incorrect filename for computer board." << endl;
+        return;
+    }
     
     //Create Player Objects
     human Human(C_Board);
