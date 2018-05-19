@@ -16,7 +16,7 @@ class human: public player {
     
     void MarkBoard(char row, int col, char c);
     char TakeTurn(char row, int col);
-    bool CheckWin(gameboard b);
+    bool CheckWin();
     void PrintTurn(char r, int c);
     
     ~human() {}

@@ -47,7 +47,7 @@ char human::TakeTurn(char row, int col)
         ret = 'M';
     }
     
-    if (CheckWin(board_) == true)
+    if (CheckWin() == true)
     {
         ret = 'W';
     }
@@ -62,11 +62,11 @@ void human::PrintTurn(char r, int c)
     cout << endl << "Player chose row: " << r << ", collumn: " << c << "." << endl;
 }
 
-bool human::CheckWin(gameboard b)
+bool human::CheckWin()
 {
     for (int i = 0; i < 100; i++)
     {
-        if (b.GetIndex(i) == 'S')
+        if (board_.GetIndex(i) == 'S')
         {
             return false;
         }

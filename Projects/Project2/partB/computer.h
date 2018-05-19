@@ -37,7 +37,7 @@ class computer: public player {
     void GetRC(char &row, int &col, int index);
     
     //Check if won
-    bool CheckWin(gameboard b);
+    bool CheckWin();
     
     //Print results of turn
     void PrintTurn(char r, int c);

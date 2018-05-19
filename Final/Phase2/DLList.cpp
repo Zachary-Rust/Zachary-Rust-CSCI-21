@@ -1,64 +1,45 @@
 #include <iostream>
-#include "BSTree.h"
+#include "DLList.h"
 
 using namespace std;
 
-BSTree::BSTree()
+DLList::DLList()
 {
-    root_ = NULL;
+    
 }
 
 //public method
-void BSTree::Insert(int data)
+void DLList::Insert(int data)
 {
-    root_ = insert(root_, data);
-}
-
-//private method
-BSTree::Node *BSTree::insert(BSTree::Node *node, int data)
-{
-    if (node == NULL)
+    if (p_ == NULL)
     {
-        node = new Node(data);
+        p_ = new Node(data);
+        p_->next_ = p_;
+        p_->previous_ = p_;
     }
     else
     {
-        if (data <= node->value_)
+        if(p_->next_ == NULL)
         {
-            node->left_ = insert(node->left_, data);
+            p_->next_ = new Node(data);
+            p_->next_->previous_ = p_;
+            p_ = p_->next_;
         }
         else
         {
-            node->right_ = insert(node->right_, data);
+            cout << "While Loop" << endl;
+            while (p_->next_ != NULL)
+            {
+                p_ = p_->next_;
+            }
+            p_->next_ = new Node(data);
+            p_->next_->previous_ = p_;
+            p_ = p_->next_;
         }
     }
+}
+
+void DLList::print()
+{
     
-    return node;
-}
-
-void BSTree::print()
-{
-    print(root_);
-}
-
-void BSTree::print(BSTree::Node *node)
-{
-    if (node == NULL)
-    {
-        return;
-    }
-    print(node->left_);
-    cout << node->value_ << endl;
-    print(node->right_);
-}
-
-void BSTree::deleteTree(BSTree::Node *node)
-{
-    if (node == NULL)
-    {
-        return;
-    }
-    deleteTree(node->left_);
-    deleteTree(node->right_);
-    delete node;
 }

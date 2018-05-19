@@ -119,7 +119,7 @@ void computer::TakeTurn(char &row, int &col, char &r)
     GetRC(row, col, choice);
     //PrintBoard();
     
-    if (CheckWin(board_))
+    if (CheckWin())
     {
         r = 'W';
     }
@@ -138,11 +138,11 @@ void computer::MarkIndex(int loc, char c)
     track_board_.at(loc) = c;
 }
 
-bool computer::CheckWin(gameboard b)
+bool computer::CheckWin()
 {
     for (int i = 0; i < 100; i++)
     {
-        if (b.GetIndex(i) == 'S')
+        if (board_.GetIndex(i) == 'S')
         {
             return false;
         }

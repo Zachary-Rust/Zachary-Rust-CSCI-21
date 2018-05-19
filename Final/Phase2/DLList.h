@@ -1,23 +1,24 @@
-#ifndef BSTREE_H
-#define BSTREE_H
+#ifndef DLLIST_H
+#define DLLIST_H
 
-class BSTree {
+class DLList {
     private:
     
     class Node {
         public:
         Node(int value) {value_ = value; }
+        Node *front_ = NULL;
+        Node *back_ = NULL:
         Node *previous_ = NULL;
         Node *next_ = NULL;
         int value_;
     };
     
-    Node *cur_ = NULL;
-    void print(Node *node);
+    Node *p_ = NULL;
     
     public:
-    BSTree();
-    ~BSTree() {}
+    DLList();
+    ~DLList() {}
     
     void Insert(int data);
     void print();
