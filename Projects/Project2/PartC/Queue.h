@@ -135,9 +135,9 @@ void Queue<T>::push(T value)
     {
         cout << "Added first node." << endl;
         node<T> *temp = new node<T>;
-        temp -> SetData(value);
-        first_ = temp;
-        last_ = temp;
+        // temp -> SetData(value);
+        // first_ = temp;
+        // last_ = temp;
     }
     // else
     // {

@@ -1,0 +1,1001 @@
+1000
+14608512	Shanghai, China
+13076300	Buenos Aires, Argentina
+12691836	Mumbai, India
+12294193	Mexico City, Distrito Federal, Mexico
+11624219	Karachi, Pakistan
+11174257	Ä°stanbul, Turkey
+10927986	Delhi, India
+10444527	Manila, Philippines
+10381222	Moscow, Russia
+10356500	Dhaka, Bangladesh
+10349312	Seoul, South Korea
+10021295	SÃ£o Paulo, Brazil
+9000000	Lagos, Nigeria
+8540121	Jakarta, Indonesia
+8336599	Tokyo, Japan
+8263100	Zhumadian, China
+8175133	New York, New York, United States
+7871900	Taipei, Taiwan
+7785965	Kinshasa, Democratic Republic of the Congo
+7737002	Lima, Peru
+7734614	Cairo, Egypt
+7556900	London, United Kingdom
+7480601	Beijing, China
+7153309	TehrÄ.n, Iran
+7150000	Nanchong, China
+7102602	BogotÃ¡, Colombia
+7012738	Hong Kong, China
+6310888	Lahore, Pakistan
+6023699	Rio de Janeiro, Brazil
+5672513	Baghdad, Iraq
+5499000	Taiâ€™an, China
+5104476	Bangkok, Thailand
+5104047	Bangalore, India
+5000000	Yueyang, China
+4837295	Santiago, Chile
+4800000	Kaifeng, China
+4631392	Kolkata, India
+4612191	Toronto, Ontario, Canada
+4477638	Yangon, Myanmar
+4394576	Sydney, New South Wales, Australia
+4328063	Chennai, India
+4205961	Riyadh, Saudi Arabia
+4184206	Wuhan, China
+4039745	Saint Petersburg, Russia
+3967028	Chongqing, China
+3950437	Chengdu, China
+3920222	Chittagong, Bangladesh
+3811516	Alexandria, Egypt
+3792621	Los Angeles, California, United States
+3766207	Tianjin, China
+3730206	Melbourne, Victoria, Australia
+3719710	AhmadÄ.bÄ.d, India
+3678555	Pusan, South Korea
+3677115	Abidjan, Cote d'Ivoire
+3626068	Kano, Nigeria
+3597816	HyderÄ.bÄ.d, India
+3590000	Puyang, China
+3574443	Yokohama-shi, Japan
+3565108	Ibadan, Nigeria
+3547809	Singapore, Singapore
+3517182	Ankara, Turkey
+3512192	Shenyang, China
+3467331	Há»“ ChÃ. Minh City, Vietnam
+3460000	Shiyan, China
+3433441	Cape Town, South Africa
+3426354	Berlin, Germany
+3268513	MontrÃ©al, Quebec, Canada
+3255944	Madrid, Spain
+3229883	Harbin, China
+3225812	Xiâ€™an, China
+3222000	Pyongyang, North Korea
+3200000	Lanzhou, China
+3152825	Guangzhou, China
+3144909	Casablanca, Morocco
+3120282	Durban, South Africa
+3087010	Nanjing, China
+3043532	Kabul, Afghanistan
+3000000	Shenzhen, China
+3000000	Caracas, Venezuela
+2935744	Pune, India
+2894504	SÅ«rat, India
+2867446	Jeddah, Saudi Arabia
+2823249	KÄ.npur, India
+2776168	Luanda, Angola
+2757729	Addis Ababa, Ethiopia
+2750547	Nairobi, Kenya
+2722475	Taiyuan, China
+2711840	Salvador, Brazil
+2711758	Jaipur, India
+2698652	Dar es Salaam, Tanzania
+2695598	Chicago, Illinois, United States
+2628000	Incheon, South Korea
+2612800	Yunfu, China
+2600000	Al BaÅŸrah, Iraq
+2592413	ÅŒsaka-shi, Japan
+2587183	Mogadishu, Somalia
+2566540	Taegu, South Korea
+2563241	Rome, Italy
+2537421	Changchun, China
+2514227	Kiev, Ukraine
+2506595	FaisalÄ.bÄ.d, Pakistan
+2500603	Ä°zmir, Turkey
+2493400	Zhongshan, China
+2472011	Lucknow, India
+2443203	Al JÄ«zah, Egypt
+2400000	Fortaleza, Brazil
+2392877	Cali, Colombia
+2374658	Surabaya, Indonesia
+2373224	Belo Horizonte, Brazil
+2352057	Dakar, Senegal
+2307177	Mashhad, Iran
+2228018	NÄ.gpur, India
+2225000	Maracaibo, Venezuela
+2207929	Raigarh Fort, India
+2207718	BrasÃ.lia, Brazil
+2201941	Santo Domingo, Dominican Republic
+2191279	Nagoya-shi, Japan
+2163824	Havana, Cuba
+2138551	Paris, France
+2099451	Houston, Texas, United States
+2073938	Changsha, China
+2069266	Jinan, China
+2065597	Mosul, Iraq
+2035307	Dalian, China
+2026469	Johannesburg, South Africa
+2015483	Al Baá¹£rah, Iraq
+2014125	Zhengzhou, China
+2000900	Almaty, Kazakhstan
+1999979	MedellÃ.n, Colombia
+1992474	Shijiazhuang, China
+1978028	Tashkent, Uzbekistan
+1977663	Algiers, Algeria
+1974647	Khartoum, Sudan
+1963264	Accra, Ghana
+1952029	Guayaquil, Ecuador
+1937451	Sanaa, Yemen
+1916100	Beirut, Lebanon
+1883027	Sapporo-shi, Japan
+1881977	Jilin, China
+1878129	Hangzhou, China
+1877155	Bucharest, Romania
+1871351	Nanchang, China
+1837969	Vancouver, British Columbia, Canada
+1837041	Indore, India
+1820888	Iztapalapa, Distrito Federal, Mexico
+1806226	Ecatepec, MÃ©xico, Mexico
+1767200	Conakry, Guinea
+1754256	Maracay, Venezuela
+1750971	Medan, Indonesia
+1743101	RÄ.walpindi, Pakistan
+1742124	Minsk, Belarus
+1739117	Hamburg, Germany
+1718421	Curitiba, Brazil
+1702139	Warsaw, Poland
+1699719	Bandung, Indonesia
+1696128	Budapest, Hungary
+1695047	Soweto, South Africa
+1691468	Vienna, Austria
+1655753	Rabat, Morocco
+1642245	Qingdao, China
+1640589	Guadalajara, Jalisco, Mexico
+1621537	Barcelona, Spain
+1619438	Pretoria, South Africa
+1602264	Aleppo, Syria
+1599920	Patna, India
+1599914	BhopÄ.l, India
+1598210	Manaus, Brazil
+1596949	Tangshan, China
+1590668	Xinyang, China
+1590256	Puebla de Zaragoza, Puebla, Mexico
+1582102	Kaduna, Nigeria
+1573544	Phnom Penh, Cambodia
+1569394	Damascus, Syria
+1547164	EÅŸfahÄ.n, Iran
+1545368	LudhiÄ.na, India
+1542813	Harare, Zimbabwe
+1528478	KÅ.be-shi, Japan
+1526006	Philadelphia, Pennsylvania, United States
+1520119	Bekasi, Indonesia
+1519711	Kaohsiung, Taiwan
+1512354	Ciudad JuÃ¡rez, Chihuahua, Mexico
+1508225	Urumqi, China
+1482200	AsunciÃ³n, Paraguay
+1478098	Recife, Brazil
+1475221	Taiden, South Korea
+1468609	Kumasi, Ghana
+1459640	Kyoto, Japan
+1453975	Kuala Lumpur, Malaysia
+1448075	Karaj, Iran
+1446704	Perth, Western Australia, Australia
+1445632	Phoenix, Arizona, United States
+1442271	Kathmandu, Nepal
+1441500	Palembang, Indonesia
+1437230	MultÄ.n, Pakistan
+1431270	Hanoi, Vietnam
+1430885	Kharkiv, Ukraine
+1430055	Ä€gra, India
+1428214	CÃ³rdoba, Argentina
+1424641	TabrÄ«z, Iran
+1419007	Novosibirsk, Russia
+1416938	Kwangju, South Korea
+1412701	Bursa, Turkey
+1409476	Vadodara, India
+1407737	BelÃ©m, Brazil
+1400646	Fushun, China
+1399814	Quito, Ecuador
+1392289	Fukuoka-shi, Japan
+1391433	Antananarivo, Madagascar
+1390581	Luoyang, China
+1388904	Hefei, China
+1386330	HyderÄ.bÄ.d, Pakistan
+1385083	Valencia, Venezuela
+1384471	GujrÄ.nwÄ.la, Pakistan
+1380425	Barranquilla, Colombia
+1380000	Liuyang, China
+1376457	Tijuana, Baja California, Mexico
+1373770	Lubumbashi, Democratic Republic of the Congo
+1372741	Porto Alegre, Brazil
+1372124	Tangerang, Indonesia
+1364389	Santa Cruz de la Sierra, Bolivia
+1358318	Handan, China
+1353189	Kampala, Uganda
+1343091	Suzhou, China
+1342339	Khulna, Bangladesh
+1338082	Douala, Cameroon
+1333973	Shantou, China
+1327407	San Antonio, Texas, United States
+1324570	Gorakhpur, India
+1323624	Mecca, Saudi Arabia
+1321717	Makassar, Indonesia
+1307402	San Diego, California, United States
+1306785	Kawasaki, Japan
+1306661	Milano, Italy
+1301768	Baotou, China
+1300000	Medina, Saudi Arabia
+1299369	YaoundÃ©, Cameroon
+1297281	Bamako, Mali
+1289497	NÄ.sik, India
+1288084	Semarang, Indonesia
+1287573	Yekaterinburg, Russia
+1284609	Brazzaville, Republic of Congo
+1284606	Pimpri, India
+1284164	Nizhniy Novgorod, Russia
+1275857	Amman, Jordan
+1273715	Budta, Philippines
+1273651	Belgrade, Serbia
+1270737	Montevideo, Uruguay
+1267440	Lusaka, Zambia
+1262255	KalyÄ.n, India
+1261517	ThÄ.ne, India
+1260391	MÃ¼nchen, Germany
+1253309	Stockholm, Sweden
+1251739	Raâ€™s BayrÅ«t, Lebanon
+1249942	ShÄ«rÄ.z, Iran
+1248988	Adana, Turkey
+1242724	Suigen, South Korea
+1234742	Port-au-Prince, Haiti
+1232220	Ciudad NezahualcÃ³yotl, MÃ©xico, Mexico
+1223184	Meerut, India
+1220229	FarÄ«dÄ.bÄ.d, India
+1218773	PeshÄ.war, Pakistan
+1212504	Davao, Philippines
+1208099	Mandalay, Myanmar
+1200000	Santiago de los Caballeros, Dominican Republic
+1200000	Omdurman, Sudan
+1199275	Anshan, China
+1199193	Tongshan, China
+1199191	GhÄ.ziÄ.bÄ.d, India
+1198129	Depok, Indonesia
+1197816	Dallas, Texas, United States
+1193350	Saitama, Japan
+1193161	Gustavo A. Madero, Distrito Federal, Mexico
+1193000	Dombivli, India
+1191613	Maputo, Mozambique
+1179720	Fuzhou, China
+1177362	RÄ.jkot, India
+1173533	Rosario, Argentina
+1171633	Guiyang, China
+1171195	GoiÃ¢nia, Brazil
+1169577	Guarulhos, Brazil
+1165581	Prague, Czech Republic
+1164404	Benares, India
+1153615	Copenhagen, Denmark
+1152556	Sofia, Bulgaria
+1150989	Tripoli, Libya
+1148665	Port Harcourt, Nigeria
+1143841	Hiroshima-shi, Japan
+1137600	Dayan, China
+1137347	Dubai, United Arab Emirates
+1134730	Samara, Russia
+1129281	Omsk, Russia
+1125058	Benin City, Nigeria
+1122874	Monterrey, Nuevo LeÃ³n, Mexico
+1121974	Malingao, Philippines
+1116513	Baku, Azerbaijan
+1114626	LeÃ³n, Guanajuato, Mexico
+1112449	Maiduguri, Nigeria
+1108647	Wuxi, China
+1104738	Kazan, Russia
+1093485	Yerevan, Armenia
+1092450	Amritsar, India
+1086505	Ouagadougou, Burkina Faso
+1077730	Yono, Japan
+1074482	Rostov-na-Donu, Russia
+1074159	Adelaide, South Australia, Australia
+1073438	AllahÄ.bÄ.d, India
+1073069	Goyang, South Korea
+1065975	Gaziantep, Turkey
+1063178	VishÄ.khapatnam, India
+1062919	Chelyabinsk, Russia
+1052678	Datong, China
+1049498	Tbilisi, Georgia
+1047700	Changshu City, China
+1040725	Taichung, Taiwan
+1037562	Sendai-shi, Japan
+1034724	Teni, India
+1034081	Xianyang, China
+1033338	Ufa, Russia
+1032822	Dnipropetrovsk, Ukraine
+1031935	Seongnam, South Korea
+1031554	Campinas, Brazil
+1030168	Jabalpur, India
+1027672	HÄ.ora, India
+1027655	Huainan, China
+1024700	Donetsâ€™k, Ukraine
+1024027	Dublin, Ireland
+1023674	Kunming, China
+1019942	Calgary, Alberta, Canada
+1019022	Brussels, Belgium
+1016441	AurangÄ.bÄ.d, India
+1011417	Volgograd, Russia
+1002118	Nova IguaÃ§u, Brazil
+1001985	Jieyang, China
+1001558	Odessa, Ukraine
+1000000	Zhu Cheng City, China
+1000000	Shivaji Nagar, India
+1000000	Masjid Jamie Baitul Muttaqien, Indonesia
+997536	KitakyÅ«shÅ«, Japan
+997281	SolÄ.pur, India
+995652	Baoding, China
+994938	Guatemala City, Guatemala
+988972	Napoli, Italy
+987717	Benxi, China
+987516	Zapopan, Jalisco, Mexico
+984333	Birmingham, United Kingdom
+982419	Permâ€™, Russia
+975857	SrÄ«nagar, India
+975153	Zaria, Nigeria
+973087	Managua, Nicaragua
+967677	Port Elizabeth, South Africa
+964891	FÃ¨s, Morocco
+963395	KÃ¶ln, Germany
+962865	Ulsan, South Korea
+959823	Coimbatore, India
+958504	Brisbane, Queensland, Australia
+954991	MaceiÃ³, Brazil
+952024	Cartagena, Colombia
+949018	Changzhou, China
+946697	SulÅ£Ä.nah, Saudi Arabia
+945942	San Jose, California, United States
+939524	Monrovia, Liberia
+938254	Mamuju, Indonesia
+937700	Kingston, Jamaica
+932800	Erbil, Iraq
+927200	Krasnoyarsk, Russia
+925000	Nay Pyi Taw, Myanmar
+921476	Jodhpur, India
+919729	Chiba-shi, Japan
+917237	SÃ£o LuÃ.s, Brazil
+914371	ChandÄ«garh, India
+909908	Madurai, India
+903485	SalÃ©, Morocco
+903039	Huaibei, China
+900414	Cochabamba, Bolivia
+900000	Qom, Iran
+900000	AbÅ« Ghurayb, Iraq
+900000	Abobo, Cote d'Ivoire
+900000	Bishkek, Kyrgyzstan
+899094	GuwÄ.hÄ.ti, India
+897560	Aba, Nigeria
+889675	Pingdingshan, China
+882458	Gwalior, India
+882364	Qiqihar, China
+879867	Klang, Malaysia
+876884	Mendoza, Argentina
+875530	Konya, Turkey
+874761	Mbuji-Mayi, Democratic Republic of the Congo
+874587	VijayawÄ.da, India
+874062	Pikine, Senegal
+868313	Mysore, India
+865672	Wenzhou, China
+865263	Torino, Italy
+863725	Saratov, Russia
+850848	Tegucigalpa, Honduras
+850731	Bucheon, South Korea
+848752	Voronezh, Russia
+846454	RÄ.nchÄ«, India
+846185	Naucalpan de JuÃ¡rez, MÃ©xico, Mexico
+844818	Ulaanbaatar, Mongolia
+841145	AhvÄ.z, Iran
+841130	Arequipa, Peru
+840352	Padang, Indonesia
+840214	Hubli, India
+839296	Marrakech, Morocco
+833571	Kampung Baru Subang, Malaysia
+829718	Indianapolis, Indiana, United States
+821784	Jacksonville, Florida, United States
+818329	Duque de Caxias, Brazil
+816824	Jos, Nigeria
+814208	Valencia, Spain
+814192	Ilorin, Nigeria
+813264	Callao, Peru
+812799	La Paz, Bolivia
+812129	Ottawa, Ontario, Canada
+809490	Barquisimeto, Venezuela
+805235	San Francisco, California, United States
+803788	Nanning, China
+802639	Freetown, Sierra Leone
+802489	Johor Bahru, Malaysia
+800348	Bandarlampung, Indonesia
+800000	Zagreb - Centar, Croatia
+800000	Bogor, Indonesia
+799668	Mombasa, Kenya
+798634	Cebu City, Philippines
+797000	Muscat, Oman
+796217	Zaporizhzhya, Ukraine
+794811	Marseille, France
+792665	Az ZarqÄ.â€™, Jordan
+792189	Ã‡ankaya, Turkey
+790390	Austin, Texas, United States
+787033	Columbus, Ohio, United States
+786499	Boumerdas, Algeria
+785178	Jalandhar, India
+784153	Thiruvananthapuram, India
+782339	Sakai, Japan
+781129	Anyang, China
+781023	San Miguel de TucumÃ¡n, Argentina
+778396	Salem, India
+775484	TiruchchirÄ.ppalli, India
+775404	Hums, Syria
+774477	Hohhot, China
+774235	Niamey, Niger
+771235	Tainan, Taiwan
+770000	Shangyu, China
+768755	Å.Ã³dÅº, Poland
+768602	Ad DammÄ.m, Saudi Arabia
+767531	Xining, China
+766706	KahrÄ«z, Iran
+763088	Kota, India
+763043	Natal, Brazil
+762243	Bhubaneshwar, India
+759718	Qinhuangdao, China
+759602	Hengyang, China
+758188	Antalya, Turkey
+755050	KrakÃ³w, Poland
+753207	AlÄ«garh, India
+752493	Turan, Vietnam
+750845	Pietermaritzburg, South Africa
+749700	LomÃ©, Togo
+747450	Trujillo, Peru
+746716	Malang, Indonesia
+746535	Ciudad Guayana, Venezuela
+745435	Bareilly, India
+745261	Kigali, Rwanda
+744512	Teresina, Brazil
+743601	Xinxiang, China
+743372	SÃ£o Bernardo do Campo, Brazil
+743307	Hegang, China
+742572	Riga, Latvia
+741636	Amsterdam, Netherlands
+741206	Fort Worth, Texas, United States
+736072	Oyo, Nigeria
+733675	Quetta, Pakistan
+731424	Charlotte, North Carolina, United States
+729151	Campo Grande, Brazil
+729137	Athens, Greece
+727700	Ashgabat, Turkmenistan
+724921	Guadalupe, Nuevo LeÃ³n, Mexico
+724270	BaÄŸcÄ±lar, Turkey
+723170	As SulaymÄ.nÄ«yah, Iraq
+721398	CÃºcuta, Colombia
+721139	MorÄ.dÄ.bÄ.d, India
+721081	N'Djamena, Chad
+720119	Langfang, China
+719867	Ningbo, China
+719332	Yantai, China
+717803	L'viv, Ukraine
+717175	MÃ©rida, YucatÃ¡n, Mexico
+715767	Tlalnepantla, MÃ©xico, Mexico
+714000	Jerusalem, Israel
+713777	Detroit, Michigan, United States
+712391	Edmonton, Alberta, Canada
+711424	Tsiuentcheou, South Korea
+709358	Zhuzhou, China
+708267	Chihuahua, Chihuahua, Mexico
+707035	Bhiwandi, India
+706567	Alvaro ObregÃ³n, Distrito Federal, Mexico
+703956	Pekanbaru, Indonesia
+703206	Sevilla, Spain
+702879	Tolâ€™yatti, Russia
+702621	JaboatÃ£o, Brazil
+701561	Shizuoka-shi, Japan
+700133	RÄ.jshÄ.hi, Bangladesh
+699514	Changzhi, China
+699385	Bulawayo, Zimbabwe
+698966	Zagreb, Croatia
+698310	Agadir, Morocco
+696731	Sarajevo, Bosnia and Herzegovina
+694167	La Plata, Argentina
+693210	Tunis, Tunisia
+692602	Zhangjiakou, China
+690584	Cotonou, Benin
+689961	Zigong, China
+689050	Fuxin, China
+688862	Enugu, Nigeria
+688356	Tangier, Morocco
+688090	Huangshi, China
+687890	Liaoyang, China
+686237	Nerima, Japan
+680423	Kumamoto-shi, Japan
+679995	Raipur, India
+677856	Osasco, Brazil
+677704	San Luis PotosÃ., San Luis PotosÃ., Mexico
+674317	Zaragoza, Spain
+674189	Xiangtan, China
+673318	Ipoh, Malaysia
+672175	Palermo, Italy
+669770	Zibo, China
+668549	Mississauga, Ontario, Canada
+666251	Nantong, China
+665915	Mudanjiang, China
+662373	Santo AndrÃ©, Brazil
+661400	Nouakchott, Mauritania
+659084	Pointe-Noire, Republic of Congo
+658179	Aguascalientes, Aguascalientes, Mexico
+652380	Kryvyy Rih, Ukraine
+652136	Acapulco de JuÃ¡rez, Guerrero, Mexico
+650883	JoÃ£o Pessoa, Brazil
+650728	Ansan, South Korea
+650629	Benghazi, Libya
+650000	Frankfurt am Main, Germany
+649851	Krasnodar, Russia
+649352	Guilin, China
+649121	El Paso, Texas, United States
+648801	Sagamihara, Japan
+648034	Colombo, Sri Lanka
+646889	Memphis, Tennessee, United States
+646750	Lilongwe, Malawi
+645984	Oran, Algeria
+644763	DiyarbakÄ±r, Turkey
+640680	Ul'yanovsk, Russia
+640000	Kotli, Pakistan
+639652	Okayama-shi, Japan
+637790	Zhanjiang, China
+636660	Yogyakarta, Indonesia
+636000	North York, Ontario, Canada
+635994	ChiÅŸinÄƒu, Moldova
+634893	WrocÅ‚aw, Poland
+634596	Tyundyu, South Korea
+634367	Anyang, South Korea
+632552	Zhenjiang, China
+632063	Winnipeg, Manitoba, Canada
+631973	Dandong, China
+631038	Izhevsk, Russia
+630008	JaboatÃ£o dos Guararapes, Brazil
+628749	Shaoguan, China
+628441	Yancheng, China
+628063	CoyoacÃ¡n, Distrito Federal, Mexico
+627348	Foshan, China
+627123	Contagem, Brazil
+625138	Bhilai, India
+625040	Panshan, China
+623891	Djibouti, Djibouti
+621250	Saltillo, Coahuila, Mexico
+621100	KermÄ.nshÄ.h, Iran
+620961	Baltimore, Maryland, United States
+617871	Al á¸¨udaydah, Yemen
+617594	Boston, Massachusetts, United States
+616338	Jamshedpur, India
+615835	Haikou, China
+615222	Taâ€˜izz, Yemen
+613764	SÃ£o JosÃ© dos Campos, Brazil
+612356	Taizhou, China
+611785	QuerÃ©taro, QuerÃ©taro, Mexico
+611739	Xingtai, China
+610268	Glasgow, United Kingdom
+609617	Borivli, India
+608660	Seattle, Washington, United States
+607545	Tlalpan, Distrito Federal, Mexico
+606730	Yaroslavl', Russia
+605344	Benoni, South Africa
+605098	Hamamatsu, Japan
+604696	Cochin, India
+604269	Jinzhou, China
+603837	AmrÄ.vati, India
+603492	Abu Dhabi, United Arab Emirates
+602695	Haiphong, Vietnam
+601951	Genova, Italy
+601723	Washington, District of Columbia, United States
+601600	IslÄ.mÄ.bÄ.d, Pakistan
+601433	Kirkuk, Iraq
+601214	SÄ.ngli, India
+600158	Denver, Colorado, United States
+600000	Shuangyashan, China
+600000	Situbondo, Indonesia
+599579	Barnaul, Russia
+598199	Rotterdam, Netherlands
+597130	Luancheng, China
+597099	Mexicali, Baja California, Mexico
+595811	Hermosillo, Sonora, Mexico
+594833	Milwaukee, Wisconsin, United States
+594590	Rasht, Iran
+593100	Abeokuta, Nigeria
+593085	Essen, Germany
+592840	Kayseri, Turkey
+592797	Morelia, MichoacÃ¡n, Mexico
+591159	Yingkou, China
+590400	Abuja, Nigeria
+589831	Zhangzhou, China
+589793	Stuttgart, Germany
+588462	Dortmund, Germany
+587022	Vladivostok, Russia
+586695	Irkutsk, Russia
+584877	Blantyre, Malawi
+583958	New Kingston, Jamaica
+583776	Portland, Oregon, United States
+583756	Las Vegas, Nevada, United States
+582469	CuliacÃ¡n, Sinaloa, Mexico
+580000	Cuttack, India
+580000	Oslo, Norway
+579999	Oklahoma City, Oklahoma, United States
+579399	HachiÅ.ji, Japan
+579000	Khabarovsk, Russia
+578337	Xiamen, China
+578303	Khabarovsk Vtoroy, Russia
+578156	Libreville, Gabon
+577514	KermÄ.n, Iran
+577375	Chiclayo, Peru
+577307	OrÅ«mÄ«yeh, Iran
+576799	BahÃ§elievler, Turkey
+576648	Bengbu, China
+576015	BÄ«kÄ.ner, India
+573265	Umraniye, Turkey
+573057	DÃ¼sseldorf, Germany
+572837	Banjarmasin, Indonesia
+572772	Shihezi, China
+571820	Bucaramanga, Colombia
+570407	Kuching, Malaysia
+570352	PoznaÅ„, Poland
+568313	Veracruz, Veracruz, Mexico
+568305	MÃ¡laga, Spain
+567481	BouakÃ©, Cote d'Ivoire
+563930	Asmara, Eritrea
+563861	Sokoto, Nigeria
+563536	UberlÃ¢ndia, Brazil
+561066	Onitsha, Nigeria
+560743	Funabashi, Japan
+559056	HamhÅ.ng, North Korea
+558862	Sorocaba, Brazil
+558457	Helsinki, Finland
+557802	Warangal, India
+555865	Santiago de Cuba, Cuba
+555609	Siping, China
+555352	Kagoshima-shi, Japan
+555308	Surakarta, Indonesia
+555230	Huaiyin, China
+554978	BhÄ.vnagar, India
+553935	Mar del Plata, Argentina
+552607	BahÄ.walpur, Pakistan
+551980	ZÄ.hedÄ.n, Iran
+551267	RibeirÃ£o Preto, Brazil
+550602	Aden, Yemen
+550204	Orenburg, Russia
+550000	Pristina, Kosovo
+550000	Sangwon, South Korea
+549549	Jiamusi, China
+549543	Antipolo, Philippines
+546854	Neijiang, China
+546501	Bremen, Germany
+545852	Albuquerque, New Mexico, United States
+545705	MeknÃ¨s, Morocco
+543907	Matola, Mozambique
+543733	Sharjah, United Arab Emirates
+543342	Banqiao, Taiwan
+543107	Dushanbe, Tajikistan
+542603	Sargodha, Pakistan
+542393	Bangui, Central African Republic
+542366	Vilnius, Lithuania
+542043	CancÃºn, Quintana Roo, Mexico
+539715	Yangzhou, China
+539616	Novokuznetsk, Russia
+539158	Kisangani, Democratic Republic of the Congo
+538378	Port Said, Egypt
+537842	Mercin, Turkey
+536023	Warri, Nigeria
+536000	Guli, China
+535298	Tanggu, China
+532419	Jiangmen, China
+530852	Nashville, Tennessee, United States
+530848	Taâ€™if, Saudi Arabia
+530604	Beira, Mozambique
+530577	GuntÅ«r, India
+528595	QuÃ©bec City, Quebec, Canada
+528256	HamadÄ.n, Iran
+527681	Cangzhou, China
+527660	Gold Coast, Queensland, Australia
+525990	San Salvador, El Salvador
+524066	TorreÃ³n, Coahuila, Mexico
+522081	Dehra DÅ«n, India
+521934	CuiabÃ¡, Brazil
+521348	CuauhtÃ©moc, Distrito Federal, Mexico
+521034	Ciudad LÃ³pez Mateos, MÃ©xico, Mexico
+520698	Petaling Jaya, Malaysia
+520400	Macau, China
+520235	Esenler, Turkey
+520173	Ryazanâ€™, Russia
+520116	Tucson, Arizona, United States
+519119	Tyumenâ€™, Russia
+518872	DurgÄ.pur, India
+518788	Quilmes, Argentina
+517911	Ajmer, India
+517802	Lisbon, Portugal
+517780	Changde, China
+517540	Jiaozuo, China
+516584	UlhÄ.snagar, India
+516142	KolhÄ.pur, India
+515655	Lipetsk, Russia
+515574	Shiliguri, India
+515140	Hannover, Germany
+514869	EskiÅŸehir, Turkey
+514102	Ä€zÄ.dshahr, Iran
+512686	Salta, Argentina
+512602	Penza, Russia
+511655	Tembisa, South Africa
+510840	Mykolayiv, Ukraine
+510770	Aparecida de GoiÃ¢nia, Brazil
+510417	Puente Alto, Chile
+509870	Naberezhnyye Chelny, Russia
+507816	San NicolÃ¡s de los Garza, Nuevo LeÃ³n, Mexico
+507524	Wuhu, China
+505881	Toluca, MÃ©xico, Mexico
+505272	Niigata-shi, Japan
+504971	Leipzig, Germany
+504559	Hamilton, Ontario, Canada
+504358	Duisburg, Germany
+504271	Ä€sansol, India
+504084	GÃ¶teborg, Sweden
+503647	ArÄ.k, Iran
+502533	Astrakhanâ€™, Russia
+501199	Zhuhai, China
+500000	Hoko, South Korea
+499237	Nuremberg, Germany
+498780	Shashi, China
+498654	Reynosa, Tamaulipas, Mexico
+497959	Makhachkala, Russia
+497955	Newcastle, New South Wales, Australia
+494665	Fresno, California, United States
+493698	Cimahi, Indonesia
+493646	Tlaquepaque, Jalisco, Mexico
+492056	JÄ.mnagar, India
+490175	Aracaju, Brazil
+489725	Port Sudan, Sudan
+489505	Santa Fe de la Vera Cruz, Argentina
+489466	San Pedro Sula, Honduras
+488125	Suez, Egypt
+486854	Dresden, Germany
+485519	Tomsk, Russia
+485167	Masina, Democratic Republic of the Congo
+484873	SahÄ.ranpur, India
+483615	Gulbarga, India
+483129	BhÄ.tpÄ.ra, India
+482576	An Najaf al Ashraf, Iraq
+481911	Feira de Santana, Brazil
+481654	Shah Alam, Malaysia
+481626	Mariupol', Ukraine
+481493	Himeji, Japan
+481128	Tuxtla GutiÃ©rrez, Chiapas, Mexico
+480951	Homyelâ€™, Belarus
+479141	Vijongbu, South Korea
+478676	East London, South Africa
+477905	Yazd, Iran
+477876	Hargeysa, Somalia
+477396	SiÄ.lkot, Pakistan
+477090	Kemerovo, Russia
+476725	Yichang, China
+476297	Hwaseong, South Korea
+475179	CuautitlÃ¡n Izcalli, MÃ©xico, Mexico
+475101	Yinchuan, China
+474889	Skopje, Macedonia
+474681	Vereeniging, South Africa
+474292	Den Haag, Netherlands
+473080	Mixco, Guatemala
+472317	Lyon, France
+471832	Londrina, Brazil
+470804	Jiaojiang, China
+470277	Matsudo, Japan
+470193	Juiz de Fora, Brazil
+468945	Liverpool, United Kingdom
+468925	Nishinomiya, Japan
+468825	Tula, Russia
+468565	Kawaguchi, Japan
+466488	Sacramento, California, United States
+466292	Zunyi, China
+466101	Jiaxing, China
+466096	Belford Roxo, Brazil
+465567	Jammu, India
+465249	Liaoyuan, China
+463546	Kananga, Democratic Republic of the Congo
+463064	Bloemfontein, South Africa
+462956	Xiangyang, China
+462257	Long Beach, California, United States
+461865	GdaÅ„sk, Poland
+461796	Calabar, Nigeria
+461513	Dadukou, China
+461304	Joinville, Brazil
+460602	á¸¨amÄ.h, Syria
+459805	Antwerpen, Belgium
+459787	Kansas City, Missouri, United States
+458937	Kanazawa-shi, Japan
+458240	Ichikawa, Japan
+458000	KarabaÄŸlar, Turkey
+457623	Zamboanga, Philippines
+457383	Kirov, Russia
+457346	Ujjain, India
+457326	Kota Kinabalu, Malaysia
+457140	Durango, Durango, Mexico
+456456	NiterÃ³i, Brazil
+456356	Hengshui, China
+455450	TabÅ«k, Saudi Arabia
+455173	Pontianak, Indonesia
+455123	Leeds, United Kingdom
+455000	Nampâ€™o, North Korea
+454898	Bacolod City, Philippines
+454849	SÃ£o JoÃ£o de Meriti, Brazil
+454150	Mansilingan, Philippines
+452000	Luhansâ€™k, Ukraine
+451893	Manado, Indonesia
+451800	Karagandy, Kazakhstan
+451800	Qaraghandy, Kazakhstan
+450327	Jining, China
+450097	Constantine, Algeria
+449865	Utsunomiya-shi, Japan
+449549	ÅžanlÄ±urfa, Turkey
+449325	Chengde, China
+449258	Xuchang, China
+448907	ÅŒita-shi, Japan
+447459	Venustiano Carranza, Distrito Federal, Mexico
+447048	San Juan, Argentina
+447047	Sheffield, United Kingdom
+446781	Cheboksary, Russia
+445168	Boksburg, South Africa
+445103	Cagayan de Oro, Philippines
+443322	Matsuyama-shi, Japan
+442173	Amagasaki, Japan
+442156	Carrefour, Haiti
+441876	DasmariÃ±as, Philippines
+441805	Malatya, Turkey
+440894	Nangi, India
+440118	Pereira, Colombia
+439922	Calicut, India
+439041	Mesa, Arizona, United States
+438861	Mawlamyine, Myanmar
+437994	Virginia Beach, Virginia, United States
+437620	Iquitos, Peru
+437581	Kurashiki, Japan
+436935	Sultangazi, Turkey
+436899	Garoua, Cameroon
+436870	Murcia, Spain
+436801	Mwanza, Tanzania
+435844	Tirunelveli, India
+435791	Edinburgh, United Kingdom
+435547	KoussÃ©ri, Cameroon
+435362	MÄ.legaon, India
+435145	Heroica Matamoros, Tamaulipas, Mexico
+434954	Kaliningrad, Russia
+434450	Karbala, Iraq
+433956	Ananindeua, Brazil
+433866	Balikpapan, Indonesia
+433806	Brampton, Ontario, Canada
+433055	Toulouse, France
+432456	Namangan, Uzbekistan
+432149	Katsina, Nigeria
+431944	Welkom, South Africa
+431781	Santa Marta, Colombia
+431052	Al Maá¸©allah al KubrÃ¡, Egypt
+430713	Bristol, United Kingdom
+429298	JÄ.lgaon, India
+428992	Yokosuka, Japan
+428857	Akola, India
+428720	Belgaum, India
+428304	East Jerusalem, Palestinian Territory
+427890	Luqiao, China
+427236	Bryansk, Russia
+427040	Maltepe, Turkey
+425298	Azcapotzalco, Distrito Federal, Mexico
+425148	Jalapa EnrÃ.quez, Veracruz, Mexico
+424795	Barcelona, Venezuela
+424787	Chaozhou, China
+423737	Bratislava, Slovakia
+423692	Gaya, India
+422784	Udaipur, India
+422414	Likasi, Democratic Republic of the Congo
+422407	Luxor, Egypt
+421685	IbaguÃ©, Colombia
+421283	Shaoxing, China
+420839	Ivanovo, Russia
+420691	Erzurum, Turkey
+420594	Akure, Nigeria
+420585	AsyÅ«Å£, Egypt
+420323	Jambi, Indonesia
+420195	Al ManÅŸÅ«rah, Egypt
+420003	Atlanta, Georgia, United States
+419146	Korba, India
+418533	BokÄ.ro, India
+418140	San Juan, Puerto Rico
+418000	Kolwezi, Democratic Republic of the Congo
+417910	Auckland, New Zealand
+417767	Sukkur, Pakistan
+417387	Mangalore, India
+417356	Luohe, China
+416427	Colorado Springs, Colorado, United States
+414032	Shymkent, Kazakhstan
+413394	Yangquan, China
+413351	Magnitogorsk, Russia
+412927	JhÄ.nsi, India
+412724	FlorianÃ³polis, Brazil
+411422	Wandsbek, Germany
+411403	Santos, Brazil
+410972	MaturÃ.n, Venezuela
+410753	ArdabÄ«l, Iran
+410204	Nagasaki-shi, Japan
+410005	Chaoyang, China
+410000	Gaza, Palestinian Territory
+409431	Kursk, Russia
+409112	Kitchener, Ontario, Canada
+408958	Omaha, Nebraska, United States
+408733	Al â€˜Ayn, United Arab Emirates
+408364	Cheju, South Korea
+408168	PanamÃ¡, Panama
+407811	Szczecin, Poland
+407208	BiÃªn HÃ²a, Vietnam
+406830	Villa Nueva, Guatemala
+406802	RibeirÃ£o das Neves, Brazil
+406331	Hirakata, Japan
+405923	Denpasar, Indonesia
+405253	Oujda, Morocco
+404901	Tanda, Egypt
+404838	Newcastle, South Africa
+404458	Xochimilco, Distrito Federal, Mexico
+404158	Nellore, India
+404109	Hsinchu, Taiwan
+403892	Raleigh, North Carolina, United States
+403759	Jixi, China
+403658	Zanzibar, Tanzania
+402014	Taoyuan City, Taiwan
+401509	TonalÃ¡, Jalisco, Mexico
+401477	Kassala, Sudan
+401270	Palma, Spain
+400914	Kitwe, Zambia
+400249	An NÄ.ÅŸirÄ«yah, Iraq
+400212	Tver', Russia
+400000	West Jerusalem, Israel
+399969	Machida, Japan
+399735	Yangjiang, China
+399457	Miami, Florida, United States
+398346	Khmelâ€™nytsâ€™kyy, Ukraine
+397714	Gifu-shi, Japan
+397521	TiruppÅ«r, India
+397515	Keelung, Taiwan
+396815	Cleveland, Ohio, United States
+395515	Manchester, United Kingdom
+395025	Iztacalco, Distrito Federal, Mexico
+394976	Surrey, British Columbia, Canada
+394930	Vila Velha, Brazil
+394732	Weifang, China
+394624	Fujisawa, Japan
+394518	Ndola, Zambia
+394163	Quilon, India
+394153	Serra, Brazil
+394050	Samsun, Turkey
+394024	Tallinn, Estonia
+393835	Bamenda, Cameroon
+393311	El Obeid, Sudan
+392939	Bello, Colombia
+392444	Xinpu, China
+392288	Sandakan, Malaysia
+391906	Tulsa, Oklahoma, United States
+391336	Buraydah, Saudi Arabia
+391190	KandahÄ.r, Afghanistan
+390724	Oakland, California, United States
+390633	Diadema, Brazil
+390219	Dongguan, China
+389411	Comilla, Bangladesh
+388920	Samut Prakan, Thailand
+388526	Nampula, Mozambique
+388028	Bissau, Guinea-Bissau
+387681	Iloilo, Philippines
+387553	KhamÄ«s Mushayt, Saudi Arabia
+387417	Campos, Brazil
+387158	Resistencia, Argentina
